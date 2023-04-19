@@ -30,23 +30,24 @@
       <div class="nav">
         <ul>
           <li>
-              <a class="nav-link" href="index.html"><i class="fa-solid fa-house icons"></i></i>My
-                  Dashboard</a>
+            <a class="nav-link" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
           </li>
           <li>
-              <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My
-                  Profile</a>
+            <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
           </li>
           <li>
-              <a class="nav-link active" href="find_talent_page.html"><i
-                      class="fa-solid fa-magnifying-glass icons"></i>Find
-                  Talents</a>
+            <a class="nav-link active" href="find_talent_page.html"><i class="fa-solid fa-magnifying-glass icons"></i>Find
+              Talents</a>
           </li>
+        </ul>
+      </div>
+      <div class="nav">
+        <ul>
           <li>
-              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#support"><i
-                      class="fa-solid fa-headset icons"></i>Support</a>
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#support"><i
+                class="fa-solid fa-headset icons"></i>Support</a>
           </li>
-      </ul>
+        </ul>
       </div>
     </div>
     <!-- Body-Content -->
@@ -67,22 +68,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav nav-2">
                 <li>
-                  <a class="nav-link active" href="index.html"><i class="fa-solid fa-house icons"></i></i>My
-                      Dashboard</a>
-              </li>
-              <li>
-                  <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My
-                      Profile</a>
-              </li>
-              <li>
+                  <a class="nav-link active" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
+                </li>
+                <li>
                   <a class="nav-link" href="find_talent_page.html"><i
-                          class="fa-solid fa-magnifying-glass icons"></i>Find
-                      Talents</a>
-              </li>
-              <li>
+                      class="fa-solid fa-magnifying-glass icons"></i>Find
+                    Talents</a>
+                </li>
+                <li>
                   <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#support"><i
-                          class="fa-solid fa-headset icons"></i>Support</a>
-              </li>
+                      class="fa-solid fa-headset icons"></i>Support</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -146,7 +145,7 @@
                           </div>
                         </div>
                       </div>
-                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#proceed">Contact Me</a>
+                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hire_me">Hire Me</a>
                     </div>
                   </div>
                   <div class="about-freelancer">
@@ -212,7 +211,7 @@
                           </div>
                         </div>
                       </div>
-                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#proceed">Contact Me</a>
+                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hire_me">Hire Me</a>
                     </div>
                   </div>
                   <div class="about-freelancer">
@@ -278,7 +277,7 @@
                           </div>
                         </div>
                       </div>
-                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#proceed">Contact Me</a>
+                      <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hire_me">Hire Me</a>
                     </div>
                   </div>
                   <div class="about-freelancer">
@@ -304,6 +303,14 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="page_number">
+              <a href=""><i class="fa-solid fa-arrow-left"></i></a>
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+              <a href="">4</a>
+              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -473,6 +480,36 @@
       </div>
     </div>
   </div>
+
+  <!-- Hire Me  Popup -->
+  <div class="modal fade" id="hire_me" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Are you sure to invite this freelancer?
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark popup-icons"></i>
+          </button>
+        </div>
+        <div class="modal-body proceed">
+          <div class="btn-group mt-3">
+            <div data-bs-toggle="modal" data-bs-target="#released">
+              <a href="#" class="btn">Yes</a>
+            </div>
+            <div><a href="project_page.html" data-bs-toggle="modal" data-bs-target="#project" class="btn btn_2">Create New Project</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
   <!-- JavaScript -->
   <script src="assets/js/jquery-3.6.4.min.js"></script>
