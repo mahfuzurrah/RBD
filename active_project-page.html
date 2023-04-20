@@ -1,422 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Dashboard</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Client Dashboard</title>
-  <link rel="stylesheet" href="assets/css/all.min.css" />
-  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-  <div class="main">
-    <!-- Side Navbar -->
-    <div class="side_navbar">
-      <div class="user_profile">
-        <img src="assets/img/client_img.png" alt="" />
-        <p class="client_name">Mahfuzur Rahman</p>
-        <div class="review">
-          <i class="fa-solid fa-solid fa-star icons"></i>
-          <i class="fa-solid fa-solid fa-star icons"></i>
-          <i class="fa-solid fa-solid fa-star icons"></i>
-          <i class="fa-solid fa-solid fa-star icons"></i>
-          <i class="fa-solid fa-solid fa-star icons"></i>
-        </div>
-      </div>
-      <div class="nav">
-        <ul>
-          <li>
-            <a class="nav-link active" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
-          </li>
-          <li>
-            <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
-          </li>
-          <li>
-            <a class="nav-link" href="find_talent_page.html"><i class="fa-solid fa-magnifying-glass icons"></i>Find
-              Talents</a>
-          </li>
-        </ul>
-      </div>
-      <div class="nav">
-        <ul>
-          <li>
-            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#support"><i
-                class="fa-solid fa-headset icons"></i>Support</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- Body-Content -->
-    <div class="body-content">
-      <!-- Top Navbar -->
-      <div class="top_navabr">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="top-nav-content">
-              <a href="#" data-bs-toggle="modal" data-bs-target="#notification"><i
-                  class="fa-solid fa-bell icons"></i></a>
-              <a href="#" data-bs-toggle="modal" data-bs-target="#project" class="btn">Post a project</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav nav-2">
-                <li>
-                  <a class="nav-link active" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="find_talent_page.html"><i
-                      class="fa-solid fa-magnifying-glass icons"></i>Find
-                    Talents</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#support"><i
-                      class="fa-solid fa-headset icons"></i>Support</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-
-      <!-- body -->
-      <div class="container-fluid body-container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="post_project-active">
-              <div class="nav">
-                <h1>Active Projects <span>-0</span></h1>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Active Projects</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-              <div class="active-project-group">
-                <div class="active-project">
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                  <div class="card">
-                    <h2>Project Name Here</h2>
-                    <div>
-                      <p>
-                        Project Date <br />
-                        <span>20-10-2023</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Project Number <br />
-                        <span>1</span>
-                      </p>
-                    </div>
-                    <div>
-                      <p>
-                        Status <br />
-                        <span style="color: var(--primary-color)">IN PROGRESS</span>
-                      </p>
-                    </div>
-                    <a href="">View</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12">
-            <div class="post_project user">
-              <div class="nav">
-                <h1>Last proposals received</h1>
-              </div>
-              <div class="proposals-list">
-                <div class="proposal-container">
-                  <a href="project_page.html">
-                    <div class="proposal">
-                      <div class="user">
-                        <div class="freelancer-img">
-                          <div class="active-box active"></div>
-                          <img src="assets/img/client_img.png" alt="" />
-                        </div>
-                        <div class="proposal-info">
-                          <p class="name">Name Here</p>
-                          <p class="project">Project Name Here</p>
-                          <p class="messages">I will send...</p>
-                        </div>
-                      </div>
-                      <div class="day">
-                        <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="project_page.html">
-                    <div class="proposal">
-                      <div class="user">
-                        <div class="freelancer-img">
-                          <div class="active-box"></div>
-                          <img src="assets/img/client_img.png" alt="" />
-                        </div>
-                        <div class="proposal-info">
-                          <p class="name">Name Here</p>
-                          <p class="project">Project Name Here</p>
-                          <p class="messages">I will send...</p>
-                        </div>
-                      </div>
-                      <div class="day">
-                        <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="project_page.html">
-                    <div class="proposal">
-                      <div class="user">
-                        <div class="freelancer-img">
-                          <div class="active-box"></div>
-                          <img src="assets/img/client_img.png" alt="" />
-                        </div>
-                        <div class="proposal-info">
-                          <p class="name">Name Here</p>
-                          <p class="project">Project Name Here</p>
-                          <p class="messages">I will send...</p>
-                        </div>
-                      </div>
-                      <div class="day">
-                        <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="project_page.html">
-                    <div class="proposal">
-                      <div class="user">
-                        <div class="freelancer-img">
-                          <div class="active-box"></div>
-                          <img src="assets/img/client_img.png" alt="" />
-                        </div>
-                        <div class="proposal-info">
-                          <p class="name">Name Here</p>
-                          <p class="project">Project Name Here</p>
-                          <p class="messages">I will send...</p>
-                        </div>
-                      </div>
-                      <div class="day">
-                        <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+  <body>
+    <div class="main">
+      <!-- Side Navbar -->
+      <div class="side_navbar">
+        <div class="user_profile">
+          <img src="assets/img/client_img.png" alt="" />
+          <p class="client_name">Mahfuzur Rahman</p>
+          <div class="review">
+            <i class="fa-solid fa-solid fa-star icons"></i>
+            <i class="fa-solid fa-solid fa-star icons"></i>
+            <i class="fa-solid fa-solid fa-star icons"></i>
+            <i class="fa-solid fa-solid fa-star icons"></i>
+            <i class="fa-solid fa-solid fa-star icons"></i>
           </div>
         </div>
-        <!-- Card -->
-        <!-- Card -->
-        <div class="card-list-group mt-5">
-          <div class="section-title">
-            <h1>You have no active projects.</h1>
-            <p>
-              Post a project and find the perfect professional for the Your
-              necessity!
-            </p>
-          </div>
+        <div class="nav">
+          <ul>
+            <li>
+              <a class="nav-link active" href="index.html"
+                ><i class="fa-solid fa-house icons"></i>My Dashboard</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="profile.html"
+                ><i class="fa-solid fa-user icons"></i>My Profile</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="find_talent_page.html"
+                ><i class="fa-solid fa-magnifying-glass icons"></i>Find
+                Talents</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul>
+            <li>
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#support"
+                ><i class="fa-solid fa-headset icons"></i>Support</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Body-Content -->
+      <div class="body-content">
+        <!-- Top Navbar -->
+        <div class="top_navabr">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                id="toggleButton"
+                onclick="toggle()"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="top-nav-content">
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#notification"
+                  ><i class="fa-solid fa-bell icons"></i
+                ></a>
+                <a
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#project"
+                  class="btn"
+                  >Post a project</a
+                >
+              </div>
+              <div id="navbarNav" style="display: none">
+                <ul class="navbar-nav nav-2">
+                  <li>
+                    <a class="nav-link active" href="index.html"
+                      ><i class="fa-solid fa-house icons"></i>My Dashboard</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link" href="profile.html"
+                      ><i class="fa-solid fa-user icons"></i>My Profile</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link" href="find_talent_page.html"
+                      ><i class="fa-solid fa-magnifying-glass icons"></i>Find
+                      Talents</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="nav-link"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#support"
+                      ><i class="fa-solid fa-headset icons"></i>Support</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- body -->
+        <div class="container-fluid body-container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 card-list">
-              <div class="card">
-                <div class="card-icons">
-                  <i class="fa-solid fa-sheet-plastic icons"></i>
+            <div class="col-lg-8">
+              <div class="post_project-active">
+                <div class="nav">
+                  <h1>Active Projects <span>-0</span></h1>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Active Projects</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
-                <div class="card-body">
-                  <h2>Publish a project</h2>
-                  <p>
-                    Create a project describing what you need, put as much
-                    detail as you can, this will help you find the talent that
-                    best fits your needs.
-                  </p>
+                <div class="active-project-group">
+                  <div class="active-project">
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                    <div class="card">
+                      <h2>Project Name Here</h2>
+                      <div>
+                        <p>
+                          Project Date <br />
+                          <span>20-10-2023</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Project Number <br />
+                          <span>1</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>
+                          Status <br />
+                          <span style="color: var(--primary-color)"
+                            >IN PROGRESS</span
+                          >
+                        </p>
+                      </div>
+                      <a href="">View</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 card-list">
-              <div class="card">
-                <div class="card-icons">
-                  <i class="fa-solid fa-arrow-up-from-bracket icons"></i>
+            <div class="col-lg-4 col-sm-12">
+              <div class="post_project user">
+                <div class="nav">
+                  <h1>Last proposals received</h1>
                 </div>
-                <div class="card-body">
-                  <h2>Receive proposals</h2>
-                  <p>
-                    Create a project describing what you need, put as much
-                    detail as you can, this will help you find the talent that
-                    best fits your needs.
-                  </p>
+                <div class="proposals-list">
+                  <div class="proposal-container">
+                    <a href="project_page.html">
+                      <div class="proposal">
+                        <div class="user">
+                          <div class="freelancer-img">
+                            <div class="active-box active"></div>
+                            <img src="assets/img/client_img.png" alt="" />
+                          </div>
+                          <div class="proposal-info">
+                            <p class="name">Name Here</p>
+                            <p class="project">Project Name Here</p>
+                            <p class="messages">I will send...</p>
+                          </div>
+                        </div>
+                        <div class="day">
+                          <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="project_page.html">
+                      <div class="proposal">
+                        <div class="user">
+                          <div class="freelancer-img">
+                            <div class="active-box"></div>
+                            <img src="assets/img/client_img.png" alt="" />
+                          </div>
+                          <div class="proposal-info">
+                            <p class="name">Name Here</p>
+                            <p class="project">Project Name Here</p>
+                            <p class="messages">I will send...</p>
+                          </div>
+                        </div>
+                        <div class="day">
+                          <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="project_page.html">
+                      <div class="proposal">
+                        <div class="user">
+                          <div class="freelancer-img">
+                            <div class="active-box"></div>
+                            <img src="assets/img/client_img.png" alt="" />
+                          </div>
+                          <div class="proposal-info">
+                            <p class="name">Name Here</p>
+                            <p class="project">Project Name Here</p>
+                            <p class="messages">I will send...</p>
+                          </div>
+                        </div>
+                        <div class="day">
+                          <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="project_page.html">
+                      <div class="proposal">
+                        <div class="user">
+                          <div class="freelancer-img">
+                            <div class="active-box"></div>
+                            <img src="assets/img/client_img.png" alt="" />
+                          </div>
+                          <div class="proposal-info">
+                            <p class="name">Name Here</p>
+                            <p class="project">Project Name Here</p>
+                            <p class="messages">I will send...</p>
+                          </div>
+                        </div>
+                        <div class="day">
+                          <p>1 day ago<i class="fa-solid fa-star icons"></i></p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 card-list">
-              <div class="card">
-                <div class="card-icons">
-                  <i class="fa-solid fa-users icons"></i>
-                </div>
-                <div class="card-body">
-                  <h2>Escolha até 4 profissionais</h2>
-                  <p>
-                    Create a project describing what you need, put as much
-                    detail as you can, this will help you find the talent that
-                    best fits your needs.
-                  </p>
+          </div>
+          <!-- Card -->
+          <!-- Card -->
+          <div class="card-list-group mt-5">
+            <div class="section-title">
+              <h1>You have no active projects.</h1>
+              <p>
+                Post a project and find the perfect professional for the Your
+                necessity!
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 card-list">
+                <div class="card">
+                  <div class="card-icons">
+                    <i class="fa-solid fa-sheet-plastic icons"></i>
+                  </div>
+                  <div class="card-body">
+                    <h2>Publish a project</h2>
+                    <p>
+                      Create a project describing what you need, put as much
+                      detail as you can, this will help you find the talent that
+                      best fits your needs.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 card-list">
-              <div class="card ex-icon">
-                <div class="card-icons">
-                  <i class="fa-solid fa-comment icons"></i>
+              <div class="col-lg-3 col-md-6 card-list">
+                <div class="card">
+                  <div class="card-icons">
+                    <i class="fa-solid fa-arrow-up-from-bracket icons"></i>
+                  </div>
+                  <div class="card-body">
+                    <h2>Receive proposals</h2>
+                    <p>
+                      Create a project describing what you need, put as much
+                      detail as you can, this will help you find the talent that
+                      best fits your needs.
+                    </p>
+                  </div>
                 </div>
-                <div class="card-body">
-                  <h2>Negocie e selecione o melhor talento</h2>
-                  <p>
-                    Create a project describing what you need, put as much
-                    detail as you can, this will help you find the talent that
-                    best fits your needs.
-                  </p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 card-list">
+                <div class="card">
+                  <div class="card-icons">
+                    <i class="fa-solid fa-users icons"></i>
+                  </div>
+                  <div class="card-body">
+                    <h2>Escolha até 4 profissionais</h2>
+                    <p>
+                      Create a project describing what you need, put as much
+                      detail as you can, this will help you find the talent that
+                      best fits your needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 card-list">
+                <div class="card ex-icon">
+                  <div class="card-icons">
+                    <i class="fa-solid fa-comment icons"></i>
+                  </div>
+                  <div class="card-body">
+                    <h2>Negocie e selecione o melhor talento</h2>
+                    <p>
+                      Create a project describing what you need, put as much
+                      detail as you can, this will help you find the talent that
+                      best fits your needs.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -424,177 +475,242 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Popup -->
+    <!-- Popup -->
 
-  <!-- Notification Popup -->
-  <div class="modal fade" id="notification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title" id="exampleModalLabel">
-            Latest Notification
-          </h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <i class="fa-solid fa-xmark popup-icons"></i>
-          </button>
-        </div>
-        <div class="modal-body notifi">
-          <div class="notification">
-            <div class="item active">
-              <div class="sourch">
-                <img src="assets/img/notification_mail.png" alt="" />
-                <div class="text">
-                  <p>Notification Name</p>
-                  <span>Notification details</span>
+    <!-- Notification Popup -->
+    <div
+      class="modal fade"
+      id="notification"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLabel">
+              Latest Notification
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark popup-icons"></i>
+            </button>
+          </div>
+          <div class="modal-body notifi">
+            <div class="notification">
+              <div class="item active">
+                <div class="sourch">
+                  <img src="assets/img/notification_mail.png" alt="" />
+                  <div class="text">
+                    <p>Notification Name</p>
+                    <span>Notification details</span>
+                  </div>
+                </div>
+                <div class="date">
+                  <p>1 day ago</p>
                 </div>
               </div>
-              <div class="date">
-                <p>1 day ago</p>
-              </div>
-            </div>
-            <div class="item active">
-              <div class="sourch">
-                <img src="assets/img/notification_mail.png" alt="" />
-                <div class="text">
-                  <p>Notification Name</p>
-                  <span>Notification details</span>
+              <div class="item active">
+                <div class="sourch">
+                  <img src="assets/img/notification_mail.png" alt="" />
+                  <div class="text">
+                    <p>Notification Name</p>
+                    <span>Notification details</span>
+                  </div>
+                </div>
+                <div class="date">
+                  <p>1 day ago</p>
                 </div>
               </div>
-              <div class="date">
-                <p>1 day ago</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="sourch">
-                <img src="assets/img/notification_mail.png" alt="" />
-                <div class="text">
-                  <p>Notification Name</p>
-                  <span>Notification details</span>
+              <div class="item">
+                <div class="sourch">
+                  <img src="assets/img/notification_mail.png" alt="" />
+                  <div class="text">
+                    <p>Notification Name</p>
+                    <span>Notification details</span>
+                  </div>
+                </div>
+                <div class="date">
+                  <p>1 day ago</p>
                 </div>
               </div>
-              <div class="date">
-                <p>1 day ago</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="sourch">
-                <img src="assets/img/notification_mail.png" alt="" />
-                <div class="text">
-                  <p>Notification Name</p>
-                  <span>Notification details</span>
+              <div class="item">
+                <div class="sourch">
+                  <img src="assets/img/notification_mail.png" alt="" />
+                  <div class="text">
+                    <p>Notification Name</p>
+                    <span>Notification details</span>
+                  </div>
                 </div>
-              </div>
-              <div class="date">
-                <p>1 day ago</p>
+                <div class="date">
+                  <p>1 day ago</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Support Popup -->
-  <div class="modal fade" id="support" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title" id="exampleModalLabel">
-            Get Into Touch <br /><span>
-              You can expect top-quality work within your budget</span>
-          </h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <i class="fa-solid fa-xmark popup-icons"></i>
-          </button>
-        </div>
-        <div class="modal-body proceed">
-          <div class="user-info" id="personal">
-            <div class="items">
-              <div class="item">
-                <div class="search__name" id="name">Name</div>
-                <input type="name" class="search__input" placeholder="your name" />
-              </div>
-              <div class="item">
-                <div class="search__name" id="gender">Email</div>
-                <input type="mail" class="search__input" placeholder="yourmail@gmail.com" />
-              </div>
-            </div>
-            <div class="items">
-              <div class="item">
-                <div class="search__name" id="weight">Subject</div>
-                <input type="text" class="search__input" placeholder="subject" />
-              </div>
-            </div>
-            <div class="items">
-              <div class="item">
-                <div class="search__name" id="weight">Weight</div>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            </div>
-            <a href="index.html" class="btn btn__secondary" onclick="submit()">
-              Submit
-            </a>
+    <!-- Support Popup -->
+    <div
+      class="modal fade"
+      id="support"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLabel">
+              Get Into Touch <br /><span>
+                You can expect top-quality work within your budget</span
+              >
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark popup-icons"></i>
+            </button>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Create Project Popup -->
-  <div class="modal fade" id="project" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title" id="exampleModalLabel">
-            Create a Projects <br /><span>
-              You can expect top-quality work within your budget</span>
-          </h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <i class="fa-solid fa-xmark popup-icons"></i>
-          </button>
-        </div>
-        <div class="modal-body proceed">
-          <div class="user-info" id="personal">
-            <div class="items">
-              <div class="item">
-                <div class="search__name" id="weight">Project Title</div>
-                <input type="text" class="search__input" placeholder="project title" />
-              </div>
-            </div>
-            <div class="items">
-              <div class="item">
-                <div class="search__name" id="weight">
-                  Project Description
+          <div class="modal-body proceed">
+            <div class="user-info" id="personal">
+              <div class="items">
+                <div class="item">
+                  <div class="search__name" id="name">Name</div>
+                  <input
+                    type="name"
+                    class="search__input"
+                    placeholder="your name"
+                  />
                 </div>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="item">
+                  <div class="search__name" id="gender">Email</div>
+                  <input
+                    type="mail"
+                    class="search__input"
+                    placeholder="yourmail@gmail.com"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="items mt-4">
-              <div class="checkbox_item">
-                <input type="checkbox" class="checkbox" />
-                <p>Acceptance policy checkbox</p>
+              <div class="items">
+                <div class="item">
+                  <div class="search__name" id="weight">Subject</div>
+                  <input
+                    type="text"
+                    class="search__input"
+                    placeholder="subject"
+                  />
+                </div>
               </div>
+              <div class="items">
+                <div class="item">
+                  <div class="search__name" id="weight">Weight</div>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <a
+                href="index.html"
+                class="btn btn__secondary"
+                onclick="submit()"
+              >
+                Submit
+              </a>
             </div>
-            <a href="active_project-page.html" class="btn btn__secondary" onclick="submit()">
-              Post a project
-            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- JavaScript -->
-  <script src="assets/js/jquery-3.6.4.min.js"></script>
-  <script src="assets/js/all.min.js"></script>
-  <script src="assets/js/fontawesome.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/style.js"></script>
-</body>
+    <!-- Create Project Popup -->
+    <div
+      class="modal fade"
+      id="project"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLabel">
+              Create a Projects <br /><span>
+                You can expect top-quality work within your budget</span
+              >
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="fa-solid fa-xmark popup-icons"></i>
+            </button>
+          </div>
+          <div class="modal-body proceed">
+            <div class="user-info" id="personal">
+              <div class="items">
+                <div class="item">
+                  <div class="search__name" id="weight">Project Title</div>
+                  <input
+                    type="text"
+                    class="search__input"
+                    placeholder="project title"
+                  />
+                </div>
+              </div>
+              <div class="items">
+                <div class="item">
+                  <div class="search__name" id="weight">
+                    Project Description
+                  </div>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="items mt-4">
+                <div class="checkbox_item">
+                  <input type="checkbox" class="checkbox" />
+                  <p>Acceptance policy checkbox</p>
+                </div>
+              </div>
+              <a
+                href="active_project-page.html"
+                class="btn btn__secondary"
+                onclick="submit()"
+              >
+                Post a project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/style.js"></script>
+  </body>
 </html>
