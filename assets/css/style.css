@@ -147,8 +147,8 @@ img {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-top: 30px;
-  /* padding: 30px 0; */
+  margin-top: 10px;
+  padding: 30px 0;
 }
 
 /* Side Navbar */
@@ -972,6 +972,20 @@ Project Page
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100vh;
+  
+}
+
+.private-info img{
+  width: 300px;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+.private-info .text{
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
 }
 
 .btn-group {
