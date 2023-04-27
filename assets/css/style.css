@@ -148,7 +148,7 @@ img {
   align-items: center;
   margin: auto;
   margin-top: 30px;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 
 /* Side Navbar */
@@ -673,7 +673,7 @@ Find Talent Page
 .talent_profile {
   padding: 40px;
   border: 1px solid var(--border-color);
-  margin-top: 20px;
+  /* margin-top: 20px; */
   border-radius: 8px;
   width: 100%;
   height: 100%;
@@ -1245,6 +1245,10 @@ Popup
   .post_project.user {
     margin-top: 20px;
   }
+
+  .page_number{
+    padding-bottom: 120px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1312,7 +1316,7 @@ Popup
   }
 
   .talent-page {
-    height: 550px;
+    height: 550px !important;
   }
 
   .talent-page.freelancer_profile {
