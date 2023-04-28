@@ -444,6 +444,7 @@ img {
 
 .card-list {
   margin-top: 20px;
+  text-align: center;
 }
 
 .card-list .card-row {
@@ -826,6 +827,7 @@ Find Talent Page
 .talent-page.freelancer_profile {
   overflow-x: auto;
 }
+
 
 /*=========================================== 
 Talent Profile Page
@@ -1294,7 +1296,7 @@ Popup
 }
 
 @media screen and (max-width: 768px) {
-  .proposals-list .proposal {
+  .proposals-list .client-reviews {
     width: 150%;
   }
 
@@ -1337,9 +1339,9 @@ Popup
     width: 150%;
   }
 
-  .talent-page {
-    height: 550px !important;
-  }
+  /* .talent-page {
+    height: 550px;
+  } */
 
   .talent-page.freelancer_profile {
     height: 100%;
