@@ -162,24 +162,11 @@ img {
   top: 0;
   left: 0;
   z-index: 2;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 .side_navbar .nav{
   margin-top: 120px;
 }
-
-/* .side_navbar .support{
-    margin-top: 250px;
-} */
-
-/* @media screen and (max-width: 1850px) {
-    .side_navbar .support{
-        margin-top: 150px;
-    }
-} */
 
 .side_navbar .user_profile img {
   width: 120px;
@@ -362,6 +349,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .client-reviews {
@@ -705,6 +693,7 @@ Find Talent Page
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .freelancer_info {
@@ -712,23 +701,27 @@ Find Talent Page
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .freelancer {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .talent_profile .talent-info .down-icons-list,
 .talent_profile .talent-info .down-icons-list .star,
 .talent_profile .talent-info .down-icons-list .ex_icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .talent_profile .talent-info .down-icons-list {
   margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .talent_profile .talent-info .down-icons-list .ex_icon span {
@@ -792,6 +785,8 @@ Find Talent Page
   margin-top: 40px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .talent_profile .keywords-group .ky_btn {
@@ -1255,20 +1250,11 @@ Popup
   }
 }
 
-@media screen and (max-width: 1170px) {
-  .talent_profile {
-    width: 150%;
-  }
-}
 
 @media screen and (max-width: 991px) {
 
   .body-container {
     margin-left: 0;
-  }
-
-  .active-project .card {
-    width: 180%;
   }
 
   .post_project.user {
@@ -1278,6 +1264,15 @@ Popup
   .page_number{
     padding-bottom: 120px;
   }
+
+  .active-project-group,
+  .post_project-active{
+    height: 100% !important;
+  }
+
+    .active-project-group{
+      padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1306,11 +1301,20 @@ Popup
   }
 
   .active-project .card {
-    width: 200%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 
   .talent_profile {
-    width: 180%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .talent_profile .btn{
+    margin-top: 30px;
+    width: 100%;
   }
 
   .search-box input[type="text"] {
@@ -1325,6 +1329,9 @@ Popup
   .seller_review .nav h1.ratting_number {
     margin-top: 20px;
   }
+  .freelancer_img{
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1336,17 +1343,9 @@ Popup
     padding: 0 20px;
   }
 
-  .talent_profile {
-    width: 280%;
-  }
-
   .notification .item {
     width: 150%;
   }
-
-  /* .talent-page {
-    height: 550px;
-  } */
 
   .talent-page.freelancer_profile {
     height: 100%;
@@ -1357,10 +1356,15 @@ Popup
     overflow-y: hidden;
     overflow-x: auto;
   }
+
+  .day{
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .proposals-list .proposal {
     align-items: self-start;
   }
+  
 }
