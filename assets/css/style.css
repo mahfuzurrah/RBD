@@ -399,6 +399,8 @@ img {
 .proposals-list .proposal .user {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .proposals-list .proposal .user .proposal-info {
@@ -1378,6 +1380,10 @@ Popup
 @media screen and (max-width: 400px) {
   .proposals-list .proposal {
     align-items: self-start;
+  }
+
+  .proposals-list .proposal .user .proposal-info{
+    margin-left: 0;
   }
   
 }
