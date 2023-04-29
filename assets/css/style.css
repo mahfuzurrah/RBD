@@ -596,6 +596,10 @@ Find Talent Page
   overflow-y: auto;
 }
 
+.proposallls:hover {
+  background: #E1F2F3;
+}
+
 .client-page {
   height: 100%;
   overflow-y: hidden;
@@ -676,12 +680,10 @@ Find Talent Page
 }
 
 .talent_profile {
-  padding: 40px;
+  padding: 30px 20px;
   border: 1px solid var(--border-color);
-  /* margin-top: 20px; */
   border-radius: 8px;
   width: 100%;
-  /* height: 100%; */
 }
 
 .contact{
@@ -788,11 +790,13 @@ Find Talent Page
 
 .talent_profile .keywords-group {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.talent_profile .keywords-group a {
+.talent_profile .keywords-group .ky_btn {
   font-size: var(--small-font-size);
-  padding: 8px 16px;
+  padding: 16px 16px;
   background: rgba(81, 45, 137, 0.05);
   border-radius: 100px;
   font-weight: 600;
@@ -805,6 +809,7 @@ Find Talent Page
   overflow: hidden;
   transition: max-height 0.3s ease;
 }
+
 
 .text__content2 {
   max-height: 55px;
