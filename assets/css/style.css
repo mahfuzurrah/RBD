@@ -1282,6 +1282,10 @@ Popup
     .active-project-group{
       padding-bottom: 20px;
     }
+
+    .proposals-list{
+      max-height: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
