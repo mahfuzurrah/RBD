@@ -602,6 +602,7 @@ Find Talent Page
   padding-top: 30px;
   border-top: 1px solid var(--border-color);
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .p-info p {
