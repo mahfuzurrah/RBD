@@ -399,6 +399,8 @@ img {
 .proposals-list .proposal .user {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .proposals-list .proposal .user .proposal-info {
@@ -1027,6 +1029,11 @@ Popup
   padding-left: 0 !important;
 }
 
+.modal.show .modal-dialog{
+  padding: 20px;
+  padding-left: 5px;
+}
+
 .modal-dialog {
   width: 850px;
   max-width: 100%;
@@ -1083,6 +1090,7 @@ Popup
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -1184,6 +1192,7 @@ Popup
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .upload-img p {
@@ -1272,6 +1281,10 @@ Popup
 
     .active-project-group{
       padding-bottom: 20px;
+    }
+
+    .proposals-list{
+      max-height: 100%;
     }
 }
 
@@ -1371,6 +1384,10 @@ Popup
 @media screen and (max-width: 400px) {
   .proposals-list .proposal {
     align-items: self-start;
+  }
+
+  .proposals-list .proposal .user .proposal-info{
+    margin-left: 0;
   }
   
 }
