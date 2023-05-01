@@ -164,7 +164,7 @@ img {
   z-index: 2;
 }
 
-.side_navbar .nav{
+.side_navbar .nav {
   margin-top: 120px;
 }
 
@@ -216,11 +216,9 @@ img {
 .side_navbar .nav ul li a:hover,
 .side_navbar .nav ul li a.active {
   border-left: 3px solid var(--primary-color);
-  background: linear-gradient(
-    90deg,
-    rgba(127, 207, 211, 0.25) 0%,
-    rgba(127, 207, 211, 0) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(127, 207, 211, 0.25) 0%,
+      rgba(127, 207, 211, 0) 100%);
 }
 
 .side_navbar .nav .icons {
@@ -502,7 +500,7 @@ img {
 }
 
 .card-list .card .card-body {
-    height: 100%
+  height: 100%
 }
 
 .card-list .card .card-body h2 {
@@ -677,7 +675,7 @@ Find Talent Page
   width: 100%;
 }
 
-.contact{
+.contact {
   margin-top: 20px;
 }
 
@@ -784,6 +782,16 @@ Find Talent Page
   color: var(--description-color);
 }
 
+.about-freelancer p,
+.description_part p {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 .talent_profile .keywords-group {
   margin-top: 40px;
   display: flex;
@@ -837,7 +845,7 @@ Talent Profile Page
 ===========================================*/
 
 .about_us {
-  padding: 30px 40px;
+  padding: 20px;
   margin-top: 30px;
   border: 1px solid var(--border-color);
   border-radius: 8px;
@@ -921,7 +929,7 @@ Project Page
 
 .project_area {
   border: 1px solid var(--border-color);
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -985,17 +993,17 @@ Project Page
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100vh;
-  
+
 }
 
-.private-info img{
+.private-info img {
   width: 300px;
   height: auto;
   display: flex;
   margin: auto;
 }
 
-.private-info .text{
+.private-info .text {
   max-width: 550px;
   margin: auto;
   text-align: center;
@@ -1030,7 +1038,7 @@ Popup
   padding-left: 0 !important;
 }
 
-.modal.show .modal-dialog{
+.modal.show .modal-dialog {
   padding: 20px;
   padding-left: 5px;
 }
@@ -1247,10 +1255,11 @@ Popup
     top: 60px;
     left: 0;
   }
+
   navbar-collapse.collapse.show .top_navabr .navbar .nav-2 {
     display: block;
   }
-  
+
   .top_navabr .navbar .nav-2 li {
     margin-top: 20px;
   }
@@ -1271,22 +1280,22 @@ Popup
     margin-top: 20px;
   }
 
-  .page_number{
+  .page_number {
     padding-bottom: 120px;
   }
 
   .active-project-group,
-  .post_project-active{
+  .post_project-active {
     height: 100% !important;
   }
 
-    .active-project-group{
-      padding-bottom: 20px;
-    }
+  .active-project-group {
+    padding-bottom: 20px;
+  }
 
-    .proposals-list{
-      max-height: 100%;
-    }
+  .proposals-list {
+    max-height: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1329,7 +1338,7 @@ Popup
     flex-direction: column;
   }
 
-  .talent_profile .btn{
+  .talent_profile .btn {
     margin-top: 30px;
     width: 100%;
   }
@@ -1346,7 +1355,8 @@ Popup
   .seller_review .nav h1.ratting_number {
     margin-top: 20px;
   }
-  .freelancer_img{
+
+  .freelancer_img {
     margin-bottom: 20px;
   }
 }
@@ -1377,7 +1387,7 @@ Popup
     overflow-x: auto;
   }
 
-  .day{
+  .day {
     margin-top: 10px;
   }
 }
@@ -1387,8 +1397,8 @@ Popup
     align-items: self-start;
   }
 
-  .proposals-list .proposal .user .proposal-info{
+  .proposals-list .proposal .user .proposal-info {
     margin-left: 0;
   }
-  
+
 }
